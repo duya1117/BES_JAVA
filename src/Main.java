@@ -1,20 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 25;
+        double salary = 55000.75;
 
-        System.out.println(age);
+        int bonus = 5000;
 
-        age = 26;
+        int totalSalary = (int)salary + bonus;
+        System.out.println("My salary : " + totalSalary);
 
-        System.out.println(age);
 
-        double salary = 50000.75;
-
-        System.out.println(salary);
-
-        String name = "노현수";
-
-        System.out.println(name);
-        System.out.println(name.length());
     }
 }
